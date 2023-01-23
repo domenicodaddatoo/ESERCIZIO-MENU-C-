@@ -1,4 +1,5 @@
 # hello-world
+DESCRIZIONE:
 Il seguente programma contiene il seguente menu:
 Gentile Utente,
 se premi 1, chiede all'utente il numero della lunghezza (es. 5) e fa un ciclo (es. 5 volte) per caricare i dati nel vettore.
