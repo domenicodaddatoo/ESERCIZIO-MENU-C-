@@ -1,20 +1,14 @@
 from turtle import *
 #FUNZIONI
-def ruota1():
+def ruota(a,b):
     pendown()
     circle(80)
     penup()
-    goto(-250, -280)
+    goto(a,b)
     pendown()
     circle(110)
     penup()
-def ruota2():
-    pendown()
-    circle(75)
-    penup()
-    goto(260, -270)
-    pendown()
-    circle(110)
+
 def corpo():
     pendown()
     left(20)
@@ -65,11 +59,15 @@ def corpo():
 #MAIN
 
 speed(10)
+a=int(input("inserisci il numero -250: "))
+b=int(input("inserisci il numero -280: "))
 penup()
 goto(-250,-250)
-ruota1()
+ruota(a,b)
 goto(-250,-180)
 corpo()
 goto(250,-240)
-ruota2()
+a=int(input("inserisci il numero 260: "))
+b=int(input("inserisci il numero -270: "))
+ruota(a,b)
 done()
